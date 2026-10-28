@@ -1,0 +1,104 @@
+################ depth 50 (results kept per query) ################
+=== english + vsm (depth 50) ===
+map                   	all	0.2709
+P_5                   	all	0.2996
+recall_50             	all	0.6303
+recall_1000           	all	0.6303
+ndcg_cut_10           	all	0.3497
+=== english + bm25 (depth 50) ===
+map                   	all	0.2979
+P_5                   	all	0.3307
+recall_50             	all	0.6622
+recall_1000           	all	0.6622
+ndcg_cut_10           	all	0.3783
+=== english + lmd (depth 50) ===
+map                   	all	0.2396
+P_5                   	all	0.2542
+recall_50             	all	0.5842
+recall_1000           	all	0.5842
+ndcg_cut_10           	all	0.3109
+=== standard + vsm (depth 50) ===
+map                   	all	0.2181
+P_5                   	all	0.2587
+recall_50             	all	0.5457
+recall_1000           	all	0.5457
+ndcg_cut_10           	all	0.2985
+=== standard + bm25 (depth 50) ===
+map                   	all	0.2721
+P_5                   	all	0.3013
+recall_50             	all	0.6147
+recall_1000           	all	0.6147
+ndcg_cut_10           	all	0.3524
+=== standard + lmd (depth 50) ===
+map                   	all	0.2220
+P_5                   	all	0.2516
+recall_50             	all	0.5608
+recall_1000           	all	0.5608
+ndcg_cut_10           	all	0.2942
+################ depth 1000 (results kept per query) ################
+=== english + vsm (depth 1000) ===
+map                   	all	0.2838
+P_5                   	all	0.2996
+recall_50             	all	0.6303
+recall_1000           	all	0.9514
+ndcg_cut_10           	all	0.3497
+=== english + bm25 (depth 1000) ===
+map                   	all	0.3107
+P_5                   	all	0.3307
+recall_50             	all	0.6622
+recall_1000           	all	0.9507
+ndcg_cut_10           	all	0.3783
+=== english + lmd (depth 1000) ===
+map                   	all	0.2533
+P_5                   	all	0.2542
+recall_50             	all	0.5842
+recall_1000           	all	0.9512
+ndcg_cut_10           	all	0.3109
+=== standard + vsm (depth 1000) ===
+map                   	all	0.2309
+P_5                   	all	0.2587
+recall_50             	all	0.5457
+recall_1000           	all	0.9520
+ndcg_cut_10           	all	0.2985
+=== standard + bm25 (depth 1000) ===
+map                   	all	0.2848
+P_5                   	all	0.3013
+recall_50             	all	0.6147
+recall_1000           	all	0.9610
+ndcg_cut_10           	all	0.3524
+=== standard + lmd (depth 1000) ===
+map                   	all	0.2358
+P_5                   	all	0.2516
+recall_50             	all	0.5608
+recall_1000           	all	0.9637
+ndcg_cut_10           	all	0.2942
+=== english + bm25, title boost 0.5 (depth 50) ===
+map                   	all	0.3022
+ndcg_cut_10           	all	0.3774
+=== english + bm25, title boost 0.75 (depth 50) ===
+map                   	all	0.3039
+ndcg_cut_10           	all	0.3814
+=== english + bm25, title boost 1.0 (depth 50) ===
+map                   	all	0.2979
+ndcg_cut_10           	all	0.3783
+=== english + bm25, title boost 1.5 (depth 50) ===
+map                   	all	0.2884
+ndcg_cut_10           	all	0.3724
+=== english + bm25, title boost 2.0 (depth 50) ===
+map                   	all	0.2834
+ndcg_cut_10           	all	0.3647
+=== english + bm25, title boost 0.5 (depth 1000) ===
+map                   	all	0.3150
+ndcg_cut_10           	all	0.3774
+=== english + bm25, title boost 0.75 (depth 1000) ===
+map                   	all	0.3166
+ndcg_cut_10           	all	0.3814
+=== english + bm25, title boost 1.0 (depth 1000) ===
+map                   	all	0.3107
+ndcg_cut_10           	all	0.3783
+=== english + bm25, title boost 1.5 (depth 1000) ===
+map                   	all	0.3013
+ndcg_cut_10           	all	0.3724
+=== english + bm25, title boost 2.0 (depth 1000) ===
+map                   	all	0.2962
+ndcg_cut_10           	all	0.3647
